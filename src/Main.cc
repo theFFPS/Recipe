@@ -52,7 +52,7 @@ void ExecTask(list<Task> tasks, string name) {
 int main(int argc, char **argv) {
     string arg = "help";
     if (argc > 1) arg = argv[1];
-    if (arg == "version" || arg == "v") cout << "RecipeManager version: v1.0-fOS" << endl;
+    if (arg == "version" || arg == "v") cout << "Recipe version: v1.0" << endl;
     else if (arg == "run" || arg == "r") {
         ifstream f ("./Recipe");
         bool exists = f.good();
