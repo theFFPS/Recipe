@@ -1,5 +1,5 @@
 PREFIX     ?= /
 all:
-	g++ src/main.cc -o target/Recipe
+	g++ src/Main.cc -o target/Recipe
 install: all
 	cp target/Recipe $(PREFIX)/bin
